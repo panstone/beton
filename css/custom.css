@@ -320,7 +320,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 }
 .why_us_item{ padding-top: 55px;}
 #why_us .fa{
-    border-radius: 100%;
+    /*border-radius: 100%;*/
     box-shadow: 0 0 0 10px #ffcb0f, 0 0 0 20px #fadb64, 0 0 0 30px #f7e59c;
     padding: 38px;
     font-size:45px;
@@ -694,7 +694,7 @@ footer::after {
     overflow: hidden;
 }
 .footer_bottom {
-    background: #1a1c27 none repeat scroll 0 0;
+    background: #484848 none repeat scroll 0 0;
     padding: 28px 0 18px;
     margin-top:55px;
 }

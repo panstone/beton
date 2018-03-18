@@ -1066,3 +1066,127 @@ span {cursor:pointer; }
              display: inline;
              border-radius: 0px;
         }
+        /* ================================= */
+    /*===== Work Gallery =====*/
+/* ================================= */
+.work-gallery-main-block {
+  position: relative;
+}
+.work-gallery-main-block .parallax {
+  padding: 74px 0 80px;
+}
+.work-gallery-main-block .section-heading,
+.work-gallery-main-block .sub-heading {
+  color: #FFF;
+  position: relative;
+}
+.work-gallery-block {
+  position: relative;
+  overflow: hidden;
+}
+.work-gallery-block .overlay-bg {
+  text-align: center;
+  background-color: rgba(255,153,51,0.6);
+  -webkit-transform:scale(0);
+  -moz-transform:scale(0);
+  -ms-transform:scale(0);
+  -o-transform:scale(0);
+  transform:scale(0);
+}
+.work-gallery-block:hover .overlay-bg { 
+  -webkit-transform:scale(0.95);
+  -moz-transform:scale(0.95);
+  -ms-transform:scale(0.95);
+  -o-transform:scale(0.95);
+  transform:scale(0.95);
+}
+.work-gallery-block img { 
+  -webkit-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.work-gallery-block:hover img { 
+  -webkit-transform:scale(1.3);
+  -moz-transform:scale(1.3);
+  -ms-transform:scale(1.3);
+  -o-transform:scale(1.3);
+  transform:scale(1.3);
+}
+.work-gallery-block .overlay-bg i {
+  color: #FFF;
+  font-size: 25px;
+  line-height: 50px;
+  border-radius: 100%;
+  border: 2px solid #FFF;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.work-gallery-block .overlay-bg i:hover {
+  background-color: #0891FF;  
+}
+.work-gallery-two-main-block {
+  padding: 72px 0 80px;
+}
+.work-gallery-two-main-block .section-heading,
+.work-gallery-two-main-block .sub-heading {
+  color: #000;
+}
+/* ================================= */
+    /*===== Facts =====*/
+/* ================================= */
+.facts-main-block {
+  position: relative;
+}
+.facts-main-block .parallax {
+  padding: 101px 0 70px;
+}
+.facts-main-block .overlay-bg {
+  background-color: rgba(0,0,0,0.8);
+}
+.facts-block {
+  margin: 0 auto 30px; 
+}
+.facts-block .facts-icon {
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 121px;
+  height: 121px;
+  background-color: transparent;
+  border: solid 3px #0891FF;
+  border-radius: 100%;
+  font-size: 46px;
+  color: #FF9933;
+  line-height: 110px;
+  -webkit-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.facts-block:hover .facts-icon {  
+  background-color: #0891FF;
+  border: solid 3px #0891FF; 
+  color: #FFF;
+}
+.facts-number {
+  color: #FFF;
+  margin-top: 22px;
+}
+.facts-text {
+  color: #FFF;
+  line-height: 1.63;
+}
