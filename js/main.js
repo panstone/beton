@@ -62,10 +62,12 @@ jQuery(document).ready(function ($) {
 // Loading
 //=========================================
 
-    $(window).load(function () {
-        $("#loading").fadeOut(500);
-    });
+    // $(window).load(function () {
+    //     $("#loading").fadeOut(500);
+    // });
 
 
 
 });
+
+
