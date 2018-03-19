@@ -68,7 +68,7 @@ nav.navbar.bootsnav .navbar-toggle{
     background-color: #fff !important;
     border: none;
     padding: 0;
-    font-size: 18px;
+    font-size: 27px;
     position: relative;
     top: 5px;
 }
@@ -1166,7 +1166,7 @@ span {cursor:pointer; }
   width: 121px;
   height: 121px;
   background-color: transparent;
-  border: solid 3px #0891FF;
+  border: solid 3px #afb0b2;
   border-radius: 100%;
   font-size: 46px;
   color: #FF9933;
@@ -1178,8 +1178,8 @@ span {cursor:pointer; }
   transition: all 0.5s ease;
 }
 .facts-block:hover .facts-icon {  
-  background-color: #0891FF;
-  border: solid 3px #0891FF; 
+  background-color: #afb0b2;
+  border: solid 3px #afb0b2; 
   color: #FFF;
 }
 .facts-number {
@@ -1189,4 +1189,27 @@ span {cursor:pointer; }
 .facts-text {
   color: #FFF;
   line-height: 1.63;
+}
+/*Дорожная карта*/
+.mapblockimg{
+  width: 100px;
+  height: 100px;
+  border: 7px solid #afb0b2;
+  border-radius: 50%;
+}
+.timeline{
+    top: 0;
+    bottom: 0;
+    
+    content: "";
+    width: 2px;
+    height: 100px;
+    
+    margin-left: 50%;
+
+    
+    background-color: #afb0b2;
+   list-style: none;
+    
+    position: center;
 }
