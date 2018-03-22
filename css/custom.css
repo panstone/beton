@@ -162,7 +162,7 @@ a:hover,a:focus{ text-decoration: none}
 }
 .list-inline.social_icon {
     float: right;
-    margin: 0;
+    /*margin-top: 30px;*/
 }
 /* Main Nav */
 nav.navbar.bootsnav {
@@ -178,7 +178,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 }
 .navbar-brand {
     height: auto;
-    padding: 20px 15px;
+    padding: 0px 0px;
 }
 #navbar-menu {
     margin: 6px 0;
@@ -245,7 +245,8 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 }
 .btn.know_btn {
     background: #ffcb0f none repeat scroll 0 0;
-    border-radius: 30px;
+    width: 200px;
+    border-radius: 0px;
     color: #fff;
     font-family: "futura_ltbold",sans-serif;
     font-size: 16px;
@@ -795,7 +796,7 @@ footer::after {
         padding: 0;
     }
     nav.navbar.bootsnav .navbar-toggle {
-        margin-top: 32px;
+        margin-top: 0px;
     }
     .attr-nav {
         right: 25px;
@@ -928,7 +929,7 @@ footer::after {
         padding: 0 8px;
     }
     .carousel-inner > .item > a > img, .carousel-inner > .item > img {
-        height: 290px;
+        height: 320px;
     }
     .carousel-caption {
         top: 5px;

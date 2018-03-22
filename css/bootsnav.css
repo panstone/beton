@@ -65,7 +65,7 @@ nav.navbar.bootsnav ul.nav li.active > a{
 }
 
 nav.navbar.bootsnav .navbar-toggle{
-    background-color: #fff !important;
+    /*background-color: #fff !important;*/
     border: none;
     padding: 0;
     font-size: 27px;
@@ -1213,4 +1213,58 @@ span {cursor:pointer; }
     
     position: center;
 }
+.net{
+    /* background-color: #141515;*/
+     color:#ff7e00;
+     width: 250px;
+     margin-top: 10px;
+     padding: 10px;
+ }
+ .net a {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 10px 30px;
+  position: relative;
+  border: 2px solid #141515;
+  color: #141515;
+  font-family: 'Montserrat', sans-serif; 
+  transition: .4s;
+}
+.net a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  border: 2px solid rgba(0,0,0,0);
+  transition: .4s;
+}
+.net a:hover:after {
+  border-color: #141515;
+  color:#ff7e00;
+  width: calc(100% - 12px);
+  height: calc(100% + 12px);
+}
+.navbar-brand {
+    height: auto;
+     padding: 0px 0px; 
+}
+.ner{
+margin-top: 30px;
+}
+@media only screen and (max-device-width: 480px) {
+    .net {
+        margin-top: -10px;
+    }
+    .ner{
+margin-top: 0px;
+}
+    }
+/* кнопка*/
 
