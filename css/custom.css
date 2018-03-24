@@ -534,7 +534,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 
 /* Contact form */
 #contact_form {
-    background: #fedb5d none repeat scroll 0 0;
+    background: #ffcb0f none repeat scroll 0 0;
     padding:27px 0 32px;
 }
 #contact_form h2 {
@@ -551,7 +551,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 }
 #contact_form .form-inline .form-control {
     border: 2px solid transparent;
-    border-radius: 10px;
+    /*border-radius: 10px;*/
     font-size: 15px;
     height: 45px;
     margin: 8px;
@@ -575,7 +575,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
     text-transform:uppercase;
     height: 45px;
     width: 120px;
-    border-radius: 10px;
+    /*border-radius: 10px;*/
     margin: 6px 8px 6px 0;
 }
 .form-control::-moz-placeholder{color:#adadad;}
