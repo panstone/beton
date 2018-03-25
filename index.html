@@ -25,6 +25,7 @@
         <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?v=2.1.5" media="screen" />	
         <!-- Custom stylesheet -->
         <link rel="stylesheet" href="css/custom.css" />
+        <link rel="stylesheet" href="css/form.css" />
         <!--[if lt IE 9]>
                 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
@@ -47,7 +48,33 @@
 
                        <div class="col-xs-12 col-md-2">
                         <ul class="list-inline info" style="margin-top: 4px;">
-                        <li class="net"><a href="">Обратный звонок</a></li>
+                        <li class="net"><p class="open_modal"><a href="" class="pop-form" data-product="Форма 1">Обратный звонок</a></p>
+
+    <div class="overlayl"></div>
+    <div class="popup">
+        <div class="close_modal">x</div>
+        <form class="fofm" action="" method="post">
+            <h5>Форма обратной связи</h5>
+            <input type="text" required placeholder="ИМЯ" name="txtname">
+            <input type="tel" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" required placeholder="ТЕЛЕФОН" name="txtphone">
+            <textarea name="txtmessage" placeholder="Комментарий" rows="10"></textarea>
+            <input type="hidden" name="txtorder" id="hidden-form" value="">
+            <input type="hidden" name="valTrFal" class="valTrFal" value="valTrFal_true">
+            <input type="submit" class="button" value="ОТПРАВИТЬ" name="btnsend">
+        </form>
+        
+    </div>
+
+    <div class="popup2">
+    <div class="close_modal">x</div>
+      <div class="window">
+        <div class="insText">
+          <h5>запрос отправлен</h5>
+          <p><strong>Ваш запрос отправлен.</strong>Наш менеджер свяжется с вами в ближайшее время!</p>
+        </div>
+      </div>
+    </div>
+                        </li>
                     </ul> 
                   </div>
                     <div class="col-xs-12 col-md-7">
@@ -114,7 +141,33 @@
                                 <h1 class="second_heading">ЗАГОЛОВОК</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                 
-                                <a  class="btn know_btn">Lopis</a>
+                                <!-- <a  class="btn know_btn">Lopis</a> -->
+                                <p class="open_modal"><a href="" class="btn know_btn pop-form" data-product="Форма 1">Обратный звонок</a></p>
+
+    <div class="overlayl"></div>
+    <div class="popup">
+        <div class="close_modal">x</div>
+        <form class="fofm" action="">
+            <h5>Форма обратной связи</h5>
+            <input type="text" required placeholder="ИМЯ" name="txtname">
+            <input type="tel" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" required placeholder="ТЕЛЕФОН" name="txtphone">
+            <textarea name="txtmessage" placeholder="Комментарий" rows="10"></textarea>
+            <input type="hidden" name="txtorder" id="hidden-form" value="">
+            <input type="hidden" name="valTrFal" class="valTrFal" value="valTrFal_true">
+            <input type="submit" class="button" value="ОТПРАВИТЬ" name="btnsend">
+        </form>
+        
+    </div>
+
+    <div class="popup2">
+    <div class="close_modal">x</div>
+      <div class="window">
+        <div class="insText">
+          <h5>запрос отправлен</h5>
+          <p><strong>Ваш запрос отправлен.</strong>Наш менеджер свяжется с вами в ближайшее время!</p>
+        </div>
+      </div>
+    </div>
                             </div>          
                         </div>
                     </div>
@@ -127,7 +180,32 @@
                                 <h1 class="second_heading">ЗАГОЛОВОК</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                 
-                                <a  class="btn know_btn">Lopis</a>
+                                <p class="open_modal"><a href="" class="btn know_btn pop-form" data-product="Форма 1">Обратный звонок</a></p>
+
+    <div class="overlayl"></div>
+    <div class="popup">
+        <div class="close_modal">x</div>
+        <form class="fofm" action="" method="post">
+            <h5>Форма обратной связи</h5>
+            <input type="text" required placeholder="ИМЯ" name="txtname">
+            <input type="tel" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" required placeholder="ТЕЛЕФОН" name="txtphone">
+            <textarea name="txtmessage" placeholder="Комментарий" rows="10"></textarea>
+            <input type="hidden" name="txtorder" id="hidden-form" value="">
+            <input type="hidden" name="valTrFal" class="valTrFal" value="valTrFal_true">
+            <input type="submit" class="button" value="ОТПРАВИТЬ" name="btnsend">
+        </form>
+        
+    </div>
+
+    <div class="popup2">
+    <div class="close_modal">x</div>
+      <div class="window">
+        <div class="insText">
+          <h5>запрос отправлен</h5>
+          <p><strong>Ваш запрос отправлен.</strong>Наш менеджер свяжется с вами в ближайшее время!</p>
+        </div>
+      </div>
+    </div>
                             </div>          
                         </div>
                     </div>
@@ -140,7 +218,32 @@
                                 <h1 class="second_heading">ЗАГОЛОВОК</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                 
-                                <a  class="btn know_btn">Lopis</a>
+                                <p class="open_modal"><a href="" class="btn know_btn pop-form" data-product="Форма 1">Обратный звонок</a></p>
+
+    <div class="overlayl"></div>
+    <div class="popup">
+        <div class="close_modal">x</div>
+        <form class="fofm" action="">
+            <h5>Форма обратной связи</h5>
+            <input type="text" required placeholder="ИМЯ" name="txtname">
+            <input type="tel" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" required placeholder="ТЕЛЕФОН" name="txtphone">
+            <textarea name="txtmessage" placeholder="Комментарий" rows="10"></textarea>
+            <input type="hidden" name="txtorder" id="hidden-form" value="">
+            <input type="hidden" name="valTrFal" class="valTrFal" value="valTrFal_true">
+            <input type="submit" class="button" value="ОТПРАВИТЬ" name="btnsend">
+        </form>
+        
+    </div>
+
+    <div class="popup2">
+    <div class="close_modal">x</div>
+      <div class="window">
+        <div class="insText">
+          <h5>запрос отправлен</h5>
+          <p><strong>Ваш запрос отправлен.</strong>Наш менеджер свяжется с вами в ближайшее время!</p>
+        </div>
+      </div>
+    </div>
                             </div>          
                         </div>
                     </div>
@@ -187,7 +290,7 @@
     </div>
   </div>
   
-  <form role="form" action="" method="post">
+  <form role="form" action="" ><!-- method="post" -->
     <div class="row setup-content" id="step-1">
       <div class="col-xs-12 ">
         <h3 style="text-align: center;font-size: 28px"> Выберете марку бетона</h3><br>
@@ -518,30 +621,30 @@
           
     
             <div class="col-md-5 mx-auto"><h4 style="font-size: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4><!-- <button type="submit" class="btn submit_btn" style="background-color: #afb0b2;width: 150px;">Оставить заявку!</button> --></div><br>
-                <div class="col-md-2 mx-auto"><img class="mapblockimg"  src="images/strelka.png" alt=""></div>
+                <div class="col-md-2 mx-auto"><img class="mapblockimg" src="images/calculator.png" alt=""></div>
                 <div class="col-md-5 mx-auto"></div>
                 <div class="col-md-12"><div class="timeline"></div></div>
-                <div class="col-md-5 mx-auto"></div><div class="col-md-2 mx-auto"><img class="mapblockimg"  src="images/strelka.png" alt=""></div>
+                <div class="col-md-5 mx-auto"></div><div class="col-md-2 mx-auto"><img class="mapblockimg"  src="images/telemarketer.png" alt=""></div>
                 <div class="col-md-5 mx-auto"><h4 style="font-size: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4></div>
      
           
             <div class="col-md-12"><div class="timeline"></div></div>
                 <div class="col-md-5 mx-auto"><h4 style="font-size: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4></div>
-                <div class="col-md-2 mx-auto"><img class="mapblockimg"  src="images/strelka.png" alt=""></div>
+                <div class="col-md-2 mx-auto"><img class="mapblockimg"  src="images/engineer.png" alt=""></div>
                 <div class="col-md-5 mx-auto"></div>
                 <div class="col-md-12"><div class="timeline"></div></div>
-                <div class="col-md-5 mx-auto"></div><div class="col-md-2 mx-auto"><img class="mapblockimg"  src="images/strelka.png" alt=""></div>
+                <div class="col-md-5 mx-auto"></div><div class="col-md-2 mx-auto"><img class="mapblockimg"  src="images/delivery-truck.png" alt=""></div>
                 <div class="col-md-5 mx-auto"><h4 style="font-size: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4></div>
             <div class="col-md-12"><div class="timeline"></div></div>
 
                 <div class="col-md-12"><!-- <div class="timeline"> --></div></div>
                 <div class="col-md-5 mx-auto"><h4 style="font-size: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4></div>
-                <div class="col-md-2 mx-auto"><img class="mapblockimg"  src="images/strelka.png" alt=""></div>
+                <div class="col-md-2 mx-auto"><img class="mapblockimg"  src="images/handshake.png" alt=""></div>
                 <div class="col-md-5 mx-auto"></div>
                 <div class="col-md-12"><div class="timeline"></div></div>
                 
 
-            <div class="col-md-5 mx-auto"></div><div class="col-md-2 mx-auto"><img class="mapblockimg" style="padding-left: 7px;" src="images/rez.jpg" alt=""></div>
+            <div class="col-md-5 mx-auto"></div><div class="col-md-2 mx-auto"><img class="mapblockimg" style="padding-left: 7px;" src="images/box.png" alt=""></div>
             <div class="col-md-5 mx-auto"><h4 style="font-size: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4></div>
      
 
@@ -554,14 +657,40 @@
         <!-- About -->
         <section id="contact_form">
             <div class="container">
-                <div class="row">
-                     <form role="form" class="form-inline text-left col-md-6" >
+                <div class="row text-left col-md-4">
+                     <!-- <form role="form" class="form-inline text-left col-md-6" >
                         <div class="form-group">
                             <input type="text" class="form-control" id="name" placeholder="ТЕЛЕФОН">
-                        </div>
-                        <button type="submit" class="btn submit_btn" style="width: 200px;">Хочу дешевле</button>
-                    </form>   
-                    <div class="col-md-6">
+                        </div></form> -->
+                        <!-- <button type="submit" class="btn submit_btn" style="width: 200px;">Хочу дешевле</button> -->
+                       <p class="open_modal"><a href="" class="btn submit_btn pop-form" style="width: 200px;" data-product="Форма 1">Хочу дешевле</a></p>
+
+    <div class="overlayl"></div>
+    <div class="popup">
+        <div class="close_modal">x</div>
+        <form class="fofm" action="">
+            <h5>Форма обратной связи</h5>
+            <input type="text" required placeholder="ИМЯ" name="txtname">
+            <input type="tel" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" required placeholder="ТЕЛЕФОН" name="txtphone">
+            <textarea name="txtmessage" placeholder="Комментарий" rows="10"></textarea>
+            <input type="hidden" name="txtorder" id="hidden-form" value="">
+            <input type="hidden" name="valTrFal" class="valTrFal" value="valTrFal_true">
+            <input type="submit" class="button" value="ОТПРАВИТЬ" name="btnsend">
+        </form>
+        
+    </div>
+
+    <div class="popup2">
+    <div class="close_modal">x</div>
+      <div class="window">
+        <div class="insText">
+          <h5>запрос отправлен</h5>
+          <p><strong>Ваш запрос отправлен.</strong>Наш менеджер свяжется с вами в ближайшее время!</p>
+        </div>
+      </div>
+    </div>
+                      </div> 
+                    <div class="col-md-8">
                         <h2>Специальное предложение</h2>
                         <h2 class="second_heading" style="color:#cc0004;">-20%</h2>
                     </div>
@@ -945,13 +1074,34 @@
                         <h2>Бесплатная консультация</h2>
                         <h2 class="second_heading">Просто оставьте номер!</h2>
                     </div>
-                    <form role="form" class="form-inline text-right col-md-6" >
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="name" placeholder="ТЕЛЕФОН">
-                        </div>
-                        <button type="submit" class="btn submit_btn" style="width: 200px;">Консультация</button>
-                    </form>				
-                </div>
+                    <br>
+                    <div class="col-md-6">
+                   <p class="open_modal"><a href="" class="btn submit_btn pop-form" style="width: 300px;height: 50px;" data-product="Форма 1">Консультация</a></p>
+</div>
+    <div class="overlayl"></div>
+    <div class="popup">
+        <div class="close_modal">x</div>
+        <form class="fofm" action="">
+            <h5>Форма обратной связи</h5>
+            <input type="text" required placeholder="ИМЯ" name="txtname">
+            <input type="tel" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" required placeholder="ТЕЛЕФОН" name="txtphone">
+            <textarea name="txtmessage" placeholder="Комментарий" rows="10"></textarea>
+            <input type="hidden" name="txtorder" id="hidden-form" value="">
+            <input type="hidden" name="valTrFal" class="valTrFal" value="valTrFal_true">
+            <input type="submit" class="button" value="ОТПРАВИТЬ" name="btnsend">
+        </form>
+        
+    </div>
+
+    <div class="popup2">
+    <div class="close_modal">x</div>
+      <div class="window">
+        <div class="insText">
+          <h5>запрос отправлен</h5>
+          <p><strong>Ваш запрос отправлен.</strong>Наш менеджер свяжется с вами в ближайшее время!</p>
+        </div>
+      </div>
+    </div>
             </div>
         </section><!-- Contact form end -->
 
@@ -1051,11 +1201,15 @@
 <script type="text/javascript" src="js/price-slider.js"></script> <!-- price slider / filter js-->
 <script type="text/javascript" src="js/bootstrap-datepicker.js"></script> <!-- bootstrap datepicker js--> 
 <script type="text/javascript" src="js/jquery.elevatezoom.js"></script> <!-- image zoom js-->
+<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
+</script>  --><script type="text/javascript" src="js/theme.js"></script>
+<script type="text/javascript" src="js/form.js"></script> 
 <!-- custom js -->  
 <script src="js/wizard.js"></script>
 <script src="js/bootsnav.js"></script>
         <script src="js/main.js"></script>
-        <script type="text/javascript" src="js/theme.js"></script>
+        
          <!-- owl carousel js -->
     </body>	
 </html>	
