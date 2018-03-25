@@ -576,6 +576,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
     height: 45px;
     width: 120px;
     /*border-radius: 10px;*/
+    padding-top: 10px;
     margin: 6px 8px 6px 0;
 }
 .form-control::-moz-placeholder{color:#adadad;}

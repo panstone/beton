@@ -1,0 +1,131 @@
+@charset "utf-8";
+.fofm input,textarea {    padding: 7px 9px; display: block; color: #b1b7ba;    font: 16px/20px Verdana, Arial, sans-serif;}
+input[type="submit"] {    color: #fff;    border: 1px solid #d6942d;    font-size: 16px;    margin-top: 6px;
+background: #ee7156;    text-decoration: none;    display: block;    cursor: pointer;    padding: 4px;    height: 40px;}
+input[type="submit"]:disabled{    opacity: .3;}
+.open_modal a{ text-decoration:none; color:#000;}
+.open_modal p {
+background: #ee7156;
+border-radius: 5px;
+padding: 2px 44px;
+color: #fff;
+font-size: 14px;
+text-transform: uppercase;
+cursor: pointer;
+margin: 0 0 0 -50%;
+display: block;
+width: 225px;
+}
+ 
+.overlayl {
+background-color: rgba(0, 0, 0, 0.92);
+bottom: 0;
+cursor: default;
+left: 0;
+opacity: 0;
+position: fixed;
+right: 0;
+top: 0;
+visibility: hidden;
+z-index: 99999;
+-webkit-transition: opacity .5s;
+-moz-transition: opacity .5s;
+-ms-transition: opacity .5s;
+-o-transition: opacity .5s;
+transition: opacity .5s;
+}
+.popup, .popup2{
+width: 350px;
+display: inline-block;
+left: 50%;
+opacity: 0;
+position: fixed;
+text-align: justify;
+top: 40%;
+visibility: hidden;
+z-index: 999999;
+-webkit-transform: translate(-50%, -50%);
+-moz-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+-o-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+-webkit-transition: opacity .5s, top .5s;
+-moz-transition: opacity .5s, top .5s;
+-ms-transition: opacity .5s, top .5s;
+-o-transition: opacity .5s, top .5s;
+transition: opacity .5s, top .5s;
+}
+.popup form {    padding: 0 0 20px;    right: 0;    background:#fff;}
+.popup2 .window {
+right: 0;
+width: 300px;
+background:#fff;
+padding: 0 27px 27px;
+ 
+}
+.popup form input {width: 80%;    margin: 0 auto;    margin-top: 0.8em;    border: 1px solid #000; color:#000;}
+.popup form input[name="txtname"]{
+margin-top: 20px; color: #000;
+}
+.popup form textarea {margin: 0 auto;    margin-top: 1em;    width: 80%;    height: 5em;    resize: none;    border: 1px solid #000; color:#000;}
+ 
+.popup form input[type="submit"] {
+background: #ffcb0f;
+text-align: center;
+text-transform: uppercase;
+width: 85%;
+border: 1px solid #ffcb0f;
+}
+ 
+.popup form h5 {font-size: 1.4em;    padding: 1em;    color: #000;    font-weight: normal;    text-transform: uppercase;
+text-align: center; }
+ 
+.popup .close_modal {position: absolute;    top: 18px;    right: 20px;    cursor: pointer;
+color: #000;    font-family: 'tahoma', sans-serif;    text-align: center;    font-size: 1.1em;}
+.popup2 .close_modal  {position: absolute;    top: 0px;    right: -45px;    cursor: pointer;
+color: #000;    font-family: 'tahoma', sans-serif;    text-align: center;    font-size: 1.1em;}
+ 
+.popup2 h5 {
+padding: 1em 0.5em;
+text-align: center;	
+font-size: 1.5em;
+color: #000;
+font-weight: normal;
+text-transform: uppercase;
+margin: 0;
+}
+.popup2 p {
+font-family: verdana;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+}
+.popup2 p strong{
+font-size: 1em;
+line-height: 30px;
+font-weight: normal;
+display: block;
+}
+ 
+::-webkit-input-placeholder { color: #000; }
+::-moz-placeholder { color: #000; }/* Firefox 19+ */
+:-moz-placeholder { color: #000; } /*Firefox 18- */
+:-ms-input-placeholder { color: #000; } 
+ 
+.popup form input::-webkit-input-placeholder {opacity: 1; transition: opacity 0.3s ease;}
+.popup form input::-moz-placeholder {opacity: 1; transition: opacity 0.3s ease;}
+.popup form input:-moz-placeholder {opacity: 1; transition: opacity 0.3s ease;}
+.popup form input:-ms-input-placeholder {opacity: 1; transition: opacity 0.3s ease;}
+.popup form input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+.popup form input:focus::-moz-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+.popup form input:focus:-moz-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+.popup form input:focus:-ms-input-placeholder {opacity: 0; transition: opacity 0.3s ease;} 
+ 
+.popup form textarea::-webkit-input-placeholder {opacity: 1; transition: opacity 0.3s ease;}
+.popup form textarea::-moz-placeholder {opacity: 1; transition: opacity 0.3s ease;}
+.popup form textarea:-moz-placeholder {opacity: 1; transition: opacity 0.3s ease;}
+.popup form textarea:-ms-input-placeholder {opacity: 1; transition: opacity 0.3s ease;}
+.popup form textarea:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+.popup form textarea:focus::-moz-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+.popup form textarea:focus:-moz-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+.popup form textarea:focus:-ms-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}

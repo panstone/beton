@@ -1192,10 +1192,11 @@ span {cursor:pointer; }
 }
 /*Дорожная карта*/
 .mapblockimg{
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
+  padding: 15px;
   border: 7px solid #afb0b2;
-  border-radius: 50%;
+  border-radius: 0%;
 }
 .timeline{
     top: 0;
