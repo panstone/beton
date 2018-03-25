@@ -22,6 +22,9 @@
         <link href="css/datepicker.css" rel="stylesheet" type="text/css"/> <!-- datepicker css -->
         <link rel="stylesheet" href="css/bootsnav.css">
         <!-- Fancybox -->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" /> -->
+<link rel="stylesheet" href="http://bootstraptema.ru/snippets/slider/2016/cbpFWSlider/cbpFWSlider.css" />
+
         <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?v=2.1.5" media="screen" />	
         <!-- Custom stylesheet -->
         <link rel="stylesheet" href="css/custom.css" />
@@ -118,8 +121,8 @@
                         <ul class="nav navbar-nav menu">
                             <li><a href="">ГЛАВНАЯ</a></li>                    
                             <li><a href="#about">О НАС</a></li>
-                            <li><a href="#services">УСЛОВИЯ</a></li>
-                            <li><a href="#portfolio">НАШИ РАБОТЫ</a></li>
+                            <li><a href="#why_us">УСЛОВИЯ</a></li>
+                            <li><a href="#testimonial">ОТЗЫВЫ</a></li>
                             <li><a href="#contact_form">КОНТАКТЫ</a></li>
                         </ul>
                     </div>
@@ -608,8 +611,8 @@
 </div>           
     </section>
     <br><br>
-    <hr>
-    <section id="home" class="content-section text-center" >
+    <hr id="about">
+    <section  class="content-section text-center" >
       <div class="container">
         <div class="row">
           <div class="col-md-12 mx-auto">
@@ -1029,6 +1032,7 @@
         </section> --><!-- Portfolio end -->
 
         <!-- Testimonial -->
+       
         <section id="testimonial">
             <div class="container text-center testimonial_area">
                 <h2>Отзывы клиентов</h2>
@@ -1065,6 +1069,25 @@
                 </div>
             </div>
         </section><!-- Testimonial end -->
+<br><br><br>
+
+<div class="container-fluid">
+<div class="row">
+
+<div class="col-xs-12">
+
+ <div id="cbp-fwslider" class="cbp-fwslider">
+ <ul>
+ <li><a href="#"><img src="images/slider_img.jpg" alt="demo 01"/></a></li>
+ <li><a href="#"><img src="images/slider_img2.jpg" alt="demo 02"/></a></li>
+ <li><a href="#"><img src="images/slider_img3.jpg" alt="demo 03"/></a></li>
+ </ul>
+ </div>
+
+</div><!-- /.col-xs-12 -->
+
+</div><!-- /.row -->
+</div><!-- /.container-fluid -->
 
         <!-- Contact form -->
         <section id="contact_form">
@@ -1203,9 +1226,19 @@
 <script type="text/javascript" src="js/jquery.elevatezoom.js"></script> <!-- image zoom js-->
 <!-- <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
+
 </script>  --><script type="text/javascript" src="js/theme.js"></script>
 <script type="text/javascript" src="js/form.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="http://bootstraptema.ru/snippets/slider/2016/cbpFWSlider/cbpFWSlider.min.js"></script>
+
 <!-- custom js -->  
+<script>
+$( function() {
+$( '#cbp-fwslider' ).cbpFWSlider();
+});
+</script>
 <script src="js/wizard.js"></script>
 <script src="js/bootsnav.js"></script>
         <script src="js/main.js"></script>
