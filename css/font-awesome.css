@@ -5,15 +5,15 @@
 /* FONT PATH
  * -------------------------- */
 @font-face {
-  font-family: 'FontAwesome';
-  src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
-  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-family: 'FiraSansLight';
+  src: url('../fonts/FiraSansLight.eot?v=4.7.0');
+  src: url('../fonts/FiraSansLight.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/FiraSansLight.woff2?v=4.7.0') format('woff2'), url('../fonts/FiraSansLight.woff?v=4.7.0') format('woff'), url('../fonts/FiraSansLight.ttf?v=4.7.0') format('truetype'), url('../fonts/FiraSansLight.svg?v=4.7.0#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 .fa {
   display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
+  font: normal normal normal 14px/1 FiraSansLight;
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
